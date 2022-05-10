@@ -1,0 +1,74 @@
+body {
+	background: black;
+	font-family: "Kalam";
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+h1 {
+	width: 350px;
+	margin: 0px 0px 0px 0px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.postcard-body {
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.body-left {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.body-right {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.firstp {
+	margin-top: 0px;
+}
+
+input {
+	color: grey;
+	font-family: "Kalam";
+	font-size: 16px;
+	border: none;
+	border-bottom: solid 1px grey;
+}
+
+p {
+	font-size: 15px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: grey;
+	padding-top: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 5px;
+	font-family: "Kalam";
+	color: black;
+}
+
+button:hover {
+	background-color: green;
+}
